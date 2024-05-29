@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>AgroVoltem</title>
+
+    <link rel="icon" href="img/Voltem.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="img/logo-removebg-preview.png" alt="Logo de AgroVoltem" class="img-fluid"
+                    style="max-height: 25px;">
+                <span style="color: #335947;">Agro</span>Voltem
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS"
+                aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarS">
+                <ul class="navbar-nav ms-auto mg-2 mg-lg-0">
+
+                    <li class="nav-item">
+                        <a href="#Inicio" class="nav-link">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#beneficios" class="nav-link">Beneficios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacto" class="nav-link">Contacto</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="../Voltem/index.html" class="nav-link">Voltem</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="carouselE" class="carousel slide" data-bs-ride="carousel" id="carousel" data-bs-interval="5000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 0"></button>
+
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="1" class="" aria-current="true"
+                aria-label="Slide 1"></button>
+
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="2" class="" aria-current="true"
+                aria-label="Slide 2"></button>
+
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="3" class="" aria-current="true"
+                aria-label="Slide 3"></button>
+
+        </div>
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="img/Voltem-Agro2.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption text-center"> <!-- Añade la clase text-center aquí -->
+                    <h5>Tecnología en índice NDVI de alta resolución</h5>
+                </div>
+            </div>
+           
+            <div class="carousel-item">
+                <img src="img/voltem-agro1.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption text-center"> <!-- Añade la clase text-center aquí -->
+                    <h5>Sensores Remotos:</h5>
+                    <p>Explora los avances en sensores remotos utilizados para capturar imágenes de alta resolución que
+                        permiten calcular el NDVI con mayor precisión y detalle. </p>
+
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/dronagricola.webp" class="d-block w-100" alt="">
+                <div class="carousel-caption text-center"> <!-- Añade la clase text-center aquí -->
+                    <h5>Drones Agrícolas:</h5>
+                    <p>  Examina cómo los
+                        drones
+                        agrícolas equipados con cámaras multiespectrales están revolucionando la recopilación de datos
+                        NDVI
+                        al proporcionar imágenes aéreas de alta resolución a nivel de parcela. </p>
+
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/carrousel.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption text-center"> <!-- Añade la clase text-center aquí -->
+                    <h5>Satélites de Observación Terrestre</h5>
+                    <p>Describe cómo los satélites de observación terrestre de última generación están mejorando la
+                        capacidad
+                        de monitorear el NDVI a escala global y regional con una resolución espacial cada vez mayor.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/portada-8.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption text-center"> <!-- Añade la clase text-center aquí -->
+                    <h5>Plataformas de Análisis de Datos</h5>
+                    <p>Analiza las plataformas de análisis de datos diseñadas específicamente para procesar y visualizar
+                        imágenes NDVI de alta resolución, facilitando la interpretación y extracción de información
+                        relevante
+                        para la agricultura.</p>
+
+                </div>
+            </div>
+        </div>
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselE" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselE" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <section id="Inicio" class="about section-padding" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img text-center">
+                        <img src="img/voltem-agro-ndvi.png" class="img-fluid" style="width: 100%;">
+                           
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    <div class="about-text text-white">
+                        <h2
+                            style="color: #2E473B; font-weight: bold; font-size: 24px; line-height: 1.4; text-transform: uppercase;">
+                            Explorando el NDVI: Variaciones en el estado del cultivo</h2>
+
+                        <p class="lead" style="color: #6E7E6E; text-align: justify;">
+                            El Índice de Vegetación de Diferencia Normalizada (NDVI, por sus siglas en inglés) es una
+                            herramienta esencial en el análisis agronómico. Con sus servicios, se abre la puerta a una
+                            comprensión más profunda de la distribución y evolución de nutrientes en suelo y planta a lo
+                            largo del ciclo del cultivo. Esta avanzada plataforma online interactiva ofrece un enfoque
+                            holístico para el monitoreo y la toma de decisiones.
+                        </p>
+
+                        <p class="lead" style="color: #6E7E6E; text-align: justify;">
+                            El NDVI, al ser un indicador directo de la actividad fotosintética de la planta, proporciona
+                            una valiosa perspectiva nutricional. La visualización gráfica de esta actividad, junto con
+                            el análisis de nutrientes en las hojas, ofrece una visión integral del estado y la nutrición
+                            de la vegetación. Esta capacidad de análisis a gran escala permite una gestión eficiente y
+                            comparativa de áreas extensas.
+                        </p>
+
+                        <p class="lead" style="color: #6E7E6E; text-align: justify;">
+                            En VOLTEM AGRO, nuestra misión es personalizar abonos según las especificidades de cada
+                            cultivo, utilizando datos obtenidos de mapas georreferenciados. Con nuestras recomendaciones
+                            y técnicas, usted podrá optimizar el uso de agua e insumos, garantizando que cada aporte sea
+                            justo y preciso para las necesidades de su cultivo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="portfolio section-padding" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2
+                            style="color: #2E473B; font-size: 32px; font-weight: bold; line-height: 1.5; text-transform: uppercase;">
+                            Maximizando el Potencial del NDVI en el Análisis Agronómico</h2>
+                        <p class="lead" style="color: #6E7E6E; text-align: justify;">
+                            El Índice de Vegetación de Diferencia Normalizada (NDVI) es una herramienta indispensable en
+                            la gestión agrícola moderna. ¿Cómo podemos aprovechar al máximo su potencial y comprender
+                            sus variaciones según el estado del cultivo?</p>
+                        <p class="lead" style="color: #6E7E6E; text-align: justify;">
+                            El NDVI, con valores que oscilan entre -1 y 1, nos brinda una medida precisa del vigor
+                            vegetativo y la salud de nuestros cultivos. Este indicador, derivado de datos satelitales o
+                            de drones, ofrece una visión global de la salud de la vegetación, permitiendo identificar
+                            áreas de estrés hídrico, deficiencias nutricionales o presencia de plagas.</p>
+                        <p class="lead" style="color: #6E7E6E; text-align: justify;">
+                            A través de técnicas de análisis avanzadas y herramientas de procesamiento de datos, podemos
+                            transformar el NDVI en información valiosa para la toma de decisiones agronómicas. Desde la
+                            optimización de la aplicación de insumos hasta la detección temprana de problemas de
+                            cultivo, el NDVI se convierte en un aliado indispensable para aumentar la productividad y la
+                            sostenibilidad de nuestras operaciones agrícolas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4 mb-4">
+                    <div class="card text-center"
+                        style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); height: 100%;">
+                        <div class="card-body">
+                            <div class="img-area mb-4">
+                                <img src="./img/agrovoltem2222.jpg" class="img-fluid">
+                            </div>
+                            <h3 style="color: #2E473B;">Valores cercanos a 1</h3>
+                            <p class="lead" style="color: #6E7E6E; text-align: justify;">
+                                cuanto más intenso es el verde,
+                                más vigorosidad existe en la
+                                vegetación y la cubierta vegetal.
+                                Debemos tener en cuenta si
+                                estamos trabajando con cultivo
+                                extensivo o intensivo, o si hay
+                                suelo desnudo, ya que todo eso
+                                será tenido en cuenta por el
+                                índice. Y que también medirá el
+                                vigor de las malezas.
+                            </p>
+                            <div class="mt-auto"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Repite este bloque para cada proyecto del porfolio -->
+
+                <div class="col-12 col-md-12 col-lg-4 mb-4">
+                    <div class="card text-center"
+                        style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); height: 100%;">
+                        <div class="card-body">
+                            <div class="img-area mb-4">
+                                <img src="./img/agrovoltem11.jpg" class="img-fluid">
+                            </div>
+                            <h3 style="color: #2E473B;">Valores cercanos a 0</h3>
+                            <p class="lead" style="color: #6E7E6E; text-align: justify;">
+                                corresponden a zonas con muy
+                                poca vegetación, primeras fases
+                                del cultivo, suelos desnudos o
+                                zonas no productivas
+                                corresponden a zonas con muy
+                                poca vegetación, primeras fases
+                                del cultivo, suelos desnudos o
+                                zonas no productivas.
+                            </p>
+                            <div class="mt-auto"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4 mb-4">
+                    <div class="card text-center"
+                        style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); height: 100%;">
+                        <div class="card-body">
+                            <div class="img-area mb-4">
+                                <img src="./img/voltem33333.jpg" class="img-fluid">
+                            </div>
+                            <h3 style="color: #2E473B;">Valores cercanos a -1</h3>
+                            <p class="lead" style="color: #6E7E6E; text-align: justify;">
+                                suele estar asociado a zonas de
+                                agua, nieve o nubes.
+                            </p>
+                            <div class="mt-auto"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="beneficios" class="services section-padding" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2 style="color: #2E473B; font-weight: bold; font-family: 'Arial Black', sans-serif;">
+                            Beneficios del NDVI en la Agricultura</h2>
+                        <p  class="lead" style="color: #6E7E6E; text-align: center;">Descubre cómo el NDVI puede
+                            revolucionar tu gestión agrícola.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card text-dark text-center shadow"
+                        style="border-radius: 15px; transition: all 0.3s; height: 100%;">
+                        <div class="card-body  ">
+                            <img src="img/voltemagro444.png" alt="Valores cercanos a 1" class="mb-4"
+                                style="max-width: 100%; height: auto;">
+                            <h3 class="card-title" style="color: #2E473B; font-weight: bold;">Optimiza tu Producción
+                            </h3>
+                            <p class="lead" style="color: #6E7E6E; text-align: justify;">
+                                • Identificación de zonas deficitarias, normales o de exceso en cada nutriente.
+
+
+
+
+
+                            </p>
+
+
+                            <p class="lead" style="color: #6E7E6E; text-align: justify;">
+                                • Ajuste de enmiendas a las características de la finca.
+                            </p>
+
+                            <p class="lead" style="color: #6E7E6E; text-align: justify;">
+                                • Optimización de las aplicaciones de fertilizantes.
+                            </p>
+                            <p class="lead" style="color: #6E7E6E; text-align: justify;">
+                                • Control de la evolución nutricional foliar.
+                            </p>
+                            <p class="lead" style="color: #6E7E6E; text-align: justify;">
+                                • Evaluación de zonas salinas.
+                            </p>
+
+                            <p class="lead" style="color: #6E7E6E; text-align: justify;">
+                                • Indicador para el establecimiento de nuevos cultivos y variedades.
+                            </p>
+                            <p class="lead" style="color: #6E7E6E; text-align: justify;">
+                                • Indicador para el establecimiento de nuevos cultivos y variedades.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="card text-dark text-center shadow"
+                        style="border-radius: 15px; transition: all 0.3s; height: 100%;">
+                        <div class="card-body  ">
+                            <img src="img/temperature.png" alt="Valores cercanos a 1" class="mb-4 class="mb-3 shadow img-fluid"
+                                style="max-width: 100%; height: auto;">
+                            <h3 class="card-title" style="color: #2E473B; font-weight: bold;">Beneficios Clave</h3>
+                            <ul style="list-style-type: none; padding-left: 0;">
+
+                                <li class="lead" style="color: #6E7E6E; text-align: justify;"><h4><strong>• Eficientizar la Productividad</h4></strong></li>
+                                <p class="lead" style="color: #6E7E6E; text-align: center;">Maximiza la rentabilidad de tu lote con una gestión eficiente.</p>
+
+                                <li class="lead" style="color: #6E7E6E; text-align: justify;"><h4><strong>• Tomar Decisiones Basadas en Datos</strong></h4></li>
+                                <p class="lead" style="color: #6E7E6E; text-align: center;">Evalúa tus campañas y diseña estrategias informadas para el éxito.</p>
+
+                                <li class="lead" style="color: #6E7E6E; text-align: justify;"><h4><strong>• Optimizar el Tiempo</strong></h4></li>
+                                <p class="lead" style="color: #6E7E6E; text-align: center;">Toma decisiones precisas sin necesidad de salir del lote.</p>
+
+                                <li class="lead" style="color: #6E7E6E; text-align: justify;"><h4><strong>• Agilizar la Comunicación</strong></h4></li>
+                                <p class="lead" style="color: #6E7E6E; text-align: center;">Simplifica la colaboración y el intercambio de información con tu equipo.</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <img src="img/shot1.png" alt="Imagen Adicional" class="mb-3 shadow img-fluid"
+                        style="width: 100%; border-radius: 15px;">
+                    <img src="img/voltem555.png" alt="Imagen Adicional" class="mb-3 shadow img-fluid"
+                        style="width: 100%; border-radius: 15px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="contacto" class="team section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2 style="color: #2E473B; font-weight: bold;">Nuestro Equipo</h2>
+                        <p class="lead" style="color: #6E7E6E; text-align: center;">Somos un equipo comprometido con la excelencia y la pasión por
+                            nuestro trabajo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center"> <!-- Añadido justify-content-center para centrar las tarjetas -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card text-center"
+                        style="background-color: #F7F7F7; border-radius: 15px; padding: 20px;">
+                        <div class="card-body">
+                            <img src="img/logo-removebg-preview.png" alt="Foto de Esteban Colombo"
+                                class="img-fluid rounded-circle" style="width: 150px;">
+                            <h3 class="card-title py-2" style="color: #2E473B; font-weight: bold;">Colombo</h3>
+                            <p class="card-text" style="color: #6E7E6E; font-weight: bold;">Esteban</p>
+                            <div class="socials">
+                                 <!--<a href="https://twitter.com/tucuenta" target="_blank"><i
+                                        class="bi bi-twitter text-info"></i></a>-->
+                                <a href="https://www.facebook.com/profile.php?id=61557831366043" target="_blank"><i
+                                        class="bi bi-facebook text-primary"></i></a>
+                              <!--   <a href="https://www.linkedin.com/in/tucuenta" target="_blank"><i
+                                        class="bi bi-linkedin text-secondary"></i></a>-->
+                                <a href="https://www.instagram.com/voltemcatamarca" target="_blank"><i
+                                        class="bi bi-instagram text-danger"></i></a>
+                                <a href="https://api.whatsapp.com/send?phone=543835400199" target="_blank"><i
+                                        class="bi bi-whatsapp text-success"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card text-center"
+                        style="background-color: #F7F7F7; border-radius: 15px; padding: 20px;">
+                        <div class="card-body">
+                            <img src="img/logo-removebg-preview.png" alt="Foto de Eugenio Piedrasanta"
+                                class="img-fluid rounded-circle" style="width: 150px;">
+                            <h3 class="card-title py-2" style="color: #2E473B; font-weight: bold;">Piedrasanta</h3>
+                            <p class="card-text" style="color: #6E7E6E; font-weight: bold;">Eugenio</p>
+                            <div class="socials">
+                                 <!--<a href="https://twitter.com/tucuenta" target="_blank"><i
+                                        class="bi bi-twitter text-info"></i></a>-->
+                                <a href="https://www.facebook.com/profile.php?id=61557831366043" target="_blank"><i
+                                        class="bi bi-facebook text-primary"></i></a>
+                              <!--  <a href="https://www.linkedin.com/in/tucuenta" target="_blank"><i
+                                        class="bi bi-linkedin text-secondary"></i></a>-->
+                                <a href="https://www.instagram.com/voltemcatamarca" target="_blank"><i
+                                        class="bi bi-instagram text-danger"></i></a>
+                                <a href="https://api.whatsapp.com/send?phone=543834367899" target="_blank"><i
+                                        class="bi bi-whatsapp text-success"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card text-center"
+                        style="background-color: #F7F7F7; border-radius: 15px; padding: 20px;">
+                        <div class="card-body">
+                            <img src="img/logo-removebg-preview.png" alt="Foto de Máximo Ramirez"
+                                class="img-fluid rounded-circle" style="width: 150px;">
+                            <h3 class="card-title py-2" style="color: #2E473B; font-weight: bold;">Ramírez</h3>
+                            <p class="card-text" style="color: #6E7E6E; font-weight: bold;">Máximo</p>
+                            <div class="socials">
+                                <!--<a href="https://twitter.com/tucuenta" target="_blank"><i
+                                        class="bi bi-twitter text-info"></i></a>-->
+                                <a href="https://www.facebook.com/profile.php?id=61557831366043" target="_blank"><i
+                                        class="bi bi-facebook text-primary"></i></a>
+                              <!--  <a href="https://www.linkedin.com/in/tucuenta" target="_blank"><i
+                                        class="bi bi-linkedin text-secondary"></i></a>-->
+                                <a href="https://www.instagram.com/voltemcatamarca" target="_blank"><i
+                                        class="bi bi-instagram text-danger"></i></a>
+                                <a href="https://api.whatsapp.com/send?phone=543834626661" target="_blank"><i
+                                        class="bi bi-whatsapp text-success"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Aquí puedes agregar más miembros del equipo -->
+            </div>
+        </div>
+    </section>
+
+
+    <a href="https://api.whatsapp.com/send?phone=543835400199" target="_blank"
+        style="position: fixed; bottom: 20px; right: 20px; z-index: 100;">
+        <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="Chat de WhatsApp"
+            style="width: 60px; height: 50px;">
+    </a>
+
+
+
+
+    <footer class="bg-dark p-4 text-center">
+        <div class="container">
+            <p class="text-white mb-0">Agro Voltem</p>
+            <p class="text-white mb-0">Dirección: Vicario Segura N°728</p>
+            <p class="text-white mb-0">Email: voltemsrl@gmail.com</p>
+            <P class="text-white mb-0">CP 4700 - Provincia de Catamarca</P>
+
+            <!-- Agrega aquí tus redes sociales -->
+            <div class="social-icons mt-3">
+                <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-white me-2"><i class="bi bi-linkedin"></i></a>
+                <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
